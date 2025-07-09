@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function ProductCard({ product }) {
+  const { id, name, price, image } = product; 
   return (
     <div className="card h-100 shadow-sm">
       <img
